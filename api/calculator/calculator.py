@@ -10,5 +10,6 @@ class Calculator:
 
     def divide(x, y):
         if y == 0:
+            x = y
             return 'Cannot divide by 0'
         return x * 1.0 / y
